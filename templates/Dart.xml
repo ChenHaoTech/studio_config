@@ -31,4 +31,9 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="fn" value="late final FocusNode _$END$ = FocusNode();" description="final focusNode" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
