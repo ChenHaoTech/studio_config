@@ -1,0 +1,5 @@
+<templateSet group="Freezed">
+  <template name="freezedConst" value="const factory $NAME$() = _$NAME$;&#10;" description="Create a basic freezed constructor" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="dartClassName()" defaultValue="" alwaysStopAt="false" />
+  </template>
+</templateSet>

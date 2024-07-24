@@ -1,0 +1,37 @@
+<templateSet group="Android">
+  <template name="il" value="import com.presence.hruframework.utils.Logger" description="import com.presence.hruframework.utils.Logger" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="td" value="// TODO $DATE$ @chenhao:  $CURSOR$" description="todo" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="tt" value="// TODO $DATE$ @chenhao: 未测试  $END$" description="todo" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="tag" value="const val TAG = &quot;$Class$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="Class" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="hld" value="HruLogger.d(TAG){&quot;$END$&quot;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="ctag" value="companion object {&#10;        const val TAG = &quot;$Class$&quot;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="Class" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

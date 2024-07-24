@@ -1,0 +1,163 @@
+<templateSet group="Flutter">
+  <template name="ld" value="this.log.dd(()=&gt;&quot;$END$&quot;);" description="ld" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="main" value="main(){&#10;    $end$&#10;}" description="main" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="mains" value="main() async {&#10;    await $end$&#10;}" description="main" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="exon" value="extension $VAR0$Ext on $VAR0$ {&#10;    $END$&#10;}" description="extension" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="pp" value="print(&quot;hint $uniq$ $method$&quot;);" description="logger dd" toReformat="true" toShortenFQNames="true">
+    <variable name="uniq" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="dartClassNameMethodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="trfn" value="throw FnException($END$);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="fnPage" value="import 'package:h_foundation/h_foundation.dart';&#10;import 'package:meno_flow/include/widget.dart';&#10;import 'package:meno_flow/include/controller.dart';&#10;import 'package:flutter/material.dart';&#10;import 'package:get/get.dart';&#10;import 'package:meno_flow/utils/function.dart';&#10;&#10;class _$widgetName$Controller extends GetxController {}&#10;&#10;class $widgetName$Page extends DisposeGetView&lt;_$widgetName$Controller&gt; {&#10;  static void to() {&#10;    Get.to(() =&gt; SearchPagePage._());&#10;  }&#10;  const $widgetName$Page._({super.key});&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      body: Placeholder(),&#10;    );&#10;  }&#10;&#10;  @override&#10;  _$widgetName$Controller supplier() =&gt; _$widgetName$Controller();&#10;&#10;  @override&#10;  String get tag =&gt; &quot;&quot;;&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="widgetName" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="log" value="late final log = LoggerWrapper(logger, this.runtimeType.toString());" description="logger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="td" value="// todo by chenhao $END$" description="todo by chenhao" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="absclass" value="abstract class $Var1$$END$ {&#10;}" description="absclass" toReformat="false" toShortenFQNames="true">
+    <variable name="Var1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="staticmethod" value="static void $END$() {&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="getservice" value="class $VAR$$END$ extends GetxService{&#10;  @override&#10;  void onReady() {&#10;    // TODO: implement onReady&#10;    super.onReady();&#10;  }&#10;  @override&#10;  void onInit() {&#10;    // TODO: implement onInit&#10;    super.onInit();&#10;  }&#10;  @override&#10;  void onClose() {&#10;    // TODO: implement onClose&#10;    super.onClose();&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="instance" value="static $ClassName$ get instance =&gt; Get.touch(() =&gt; $ClassName$$END$());" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ClassName" expression="dartClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="staticcreate" value="static $Class$ build$END$() {&#10;    return $Class$($END$);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="Class" expression="dartClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="wip" value="FnNotification.wip()" description="wip" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="main.min" value="mainAxisSize: MainAxisSize.min," description="mainAxisSize: MainAxisSize.min," toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="stless" value="import 'package:flutter/cupertino.dart';&#10;&#10;class $NAME$ extends StatelessWidget {&#10;  const $NAME$({super.key});&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return const Placeholder($END$);&#10;  }&#10;}&#10;" description="New Stateless widget" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="stful" value="import 'package:flutter/cupertino.dart';&#10;&#10;class $NAME$ extends StatefulWidget {&#10;  const $NAME$({super.key});&#10;&#10;  @override&#10;  State&lt;$NAME$&gt; createState() =&gt; $SNAME$();&#10;}&#10;&#10;class $SNAME$ extends State&lt;$NAME$&gt; {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return const Placeholder($END$);&#10;  }&#10;}&#10;" description="New Stateful widget" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SNAME" expression="regularExpression(concat(&quot;_&quot;, NAME, &quot;State&quot;), &quot;^__&quot;, &quot;_&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="stalessWithoutImport" value="class $NAME$ extends StatelessWidget {&#10;  const $NAME$({super.key});&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return const Placeholder($END$);&#10;  }&#10;}&#10;" description="New Stateless widget" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="widget_function" value="Widget $END$$VAR$() {&#10;return Text(&quot;$VAR$&quot;);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="future" value="$END$$VAR2$ Completer _$VAR1$completer = Completer();&#10;$END$$VAR2$ Future get $VAR1$future =&gt; _$VAR1$completer.future;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="futureBuilder" value="FutureBuilder(&#10;future: $VAR1$,&#10;builder: (context, snap) {&#10;   if(snap.data==null){&#10;       return emptywidget;&#10;   }&#10;   $END$&#10;});" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="18" value=".i18n" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="le" value="this.log.e(&quot;$END$&quot;,e);" description="log.e" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try{&#10;    $VAR1$&#10;}catch(e){&#10;    this.log.e(&quot;$END$&quot;,e);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="dl" value="DebugUtils.log(&quot;$FILE_NAME$:$FILE_NUM$$END$ \n${StackTrace.current}&quot;);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="FILE_NUM" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="_sub" value="late final StreamSubscription _sub;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>

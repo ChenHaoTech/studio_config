@@ -1,0 +1,8 @@
+<keymap version="1" name="Eclipse (macOS) copy" parent="Eclipse (Mac OS X)">
+  <action id="NextEditorTab">
+    <keyboard-shortcut first-keystroke="ctrl meta alt equals" />
+  </action>
+  <action id="PreviousEditorTab">
+    <keyboard-shortcut first-keystroke="ctrl meta alt minus" />
+  </action>
+</keymap>

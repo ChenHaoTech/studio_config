@@ -1,0 +1,35 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="favorites">
+      <list>
+        <option value="package:mine  " />
+        <option value="package:mine InstanceChatViewModel" />
+      </list>
+    </option>
+    <option name="mostRecentlyUsed" value="package:mine (tag:MGRIM | tag:InstanceChatViewModel ) | level:error " />
+    <option name="nonFavorites">
+      <list>
+        <option value="package:mine (tag:MGRIM | tag:InstanceChatViewModel ) | level:error " />
+        <option value="package:mine (tag:MGRIM | tag:InstanceChatViewModel ) | l" />
+        <option value="package:mine (tag:MGRIM | tag:InstanceChatViewModel ) | tag" />
+        <option value="package:mine tag:MGRIM | tag:InstanceChatViewModel" />
+        <option value="package:mine tag:MGRIM |tag" />
+        <option value="package:mine tag:MGRIM " />
+        <option value="package:mine tag:M" />
+        <option value="package:mine ta" />
+        <option value="package:mine t" />
+        <option value="package:com.presence.haven tag:MGRIM " />
+        <option value="package:com.presence.haven tag:M" />
+        <option value="package:com.presence.haven ta" />
+        <option value="package:com.presence.haven (tag:MGRIM) | level:error  -tag:AppsFlyer_6.12.2 " />
+        <option value="package:mine  tag:MGRIM " />
+        <option value="package:mine  tag:M" />
+        <option value="package:mine  t" />
+        <option value="package:mine startMatch, filter" />
+        <option value="package:mine  startMatch" />
+        <option value="package:com.presence.haven startMatch" />
+        <option value="package:com.presence.haven startMatch, filter" />
+      </list>
+    </option>
+  </component>
+</application>

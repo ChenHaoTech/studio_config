@@ -1,0 +1,21 @@
+<application>
+  <component name="UpdatesConfigurable">
+    <ignoredBuildNumbers>
+      <item value="201.8538.31" />
+      <item value="202.6397.94" />
+      <item value="202.6948.69" />
+      <item value="203.5981.155" />
+      <item value="223.8836.35.2231.10811636" />
+    </ignoredBuildNumbers>
+    <option name="LAST_BUILD_CHECKED" value="AI-223.8836.35.2231.10671973" />
+    <option name="LAST_TIME_CHECKED" value="1721713738948" />
+    <pluginHosts>
+      <item value="https://s3plus.sankuai.com/v1/mss_5e9b33dfdbb94ca5840fbb1047f4edc7/sonic-plugin/plugins.xml" />
+      <item value="https://plugins.zhile.io" />
+      <item value="https://sonic.sankuai.com/repository/plugins.xml" />
+      <item value="https://idekit.sankuai.com/repository/plugins.xml" />
+    </pluginHosts>
+    <option name="THIRD_PARTY_PLUGINS_ALLOWED" value="true" />
+    <option name="UPDATE_CHANNEL_TYPE" value="release" />
+  </component>
+</application>

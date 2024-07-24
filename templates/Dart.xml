@@ -1,0 +1,34 @@
+<templateSet group="Dart">
+  <template name="publicmethod" value="$VAR0$(){&#10;   $END$&#10;}" description="public method" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="test" value="test(&quot;$DESC$&quot;,(){&#10;    $END$&#10;});" description="test" toReformat="false" toShortenFQNames="true">
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="mtest" value="main(){&#10;    test(&quot;$DESC$&quot;,(){&#10;        $END$&#10;    });&#10;}" description="test main" toReformat="false" toShortenFQNames="true">
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="pp" value="print(&quot;###CH### $METHOD$ $LINE$ $END$&quot;);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="dartMethodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="rr" value="GetRouteUtils" description="GetRouteUtils" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>
