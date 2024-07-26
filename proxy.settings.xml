@@ -1,0 +1,5 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="PROXY_EXCEPTIONS" value="*.sankuai.com,*.sankuai.net,*.meituan.com,*.meituan.net" />
+  </component>
+</application>
