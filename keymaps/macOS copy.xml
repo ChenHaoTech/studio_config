@@ -504,7 +504,6 @@
   <action id="SendEOF" />
   <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
-  <action id="ShowChatWindowAction" />
   <action id="ShowContent" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
