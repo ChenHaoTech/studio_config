@@ -429,7 +429,8 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="SupabaseService" />
+                <option name="exclude" value="true" />
+                <option name="expression" value="[SyncHelper" />
               </GrepModel>
             </list>
           </option>
@@ -438,8 +439,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="exclude" value="true" />
-                <option name="expression" value="[SyncHelper" />
+                <option name="expression" value="SupabaseService" />
               </GrepModel>
             </list>
           </option>
