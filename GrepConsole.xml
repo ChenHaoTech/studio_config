@@ -420,7 +420,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="[SyncHelper" />
+                <option name="expression" value="TimeBlockStore" />
               </GrepModel>
             </list>
           </option>
@@ -438,7 +438,8 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="TimeBlockStore" />
+                <option name="exclude" value="true" />
+                <option name="expression" value="[SyncHelper" />
               </GrepModel>
             </list>
           </option>
