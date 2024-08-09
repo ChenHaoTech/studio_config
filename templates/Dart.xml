@@ -36,7 +36,7 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="globalKey" value="final GlobalKey&lt;$state$&gt; _$prefix$key =GlobalKey();&#10;key: _$prefix$key," toReformat="false" toShortenFQNames="true">
+  <template name="globalKey" value="final GlobalKey&lt;$state$&gt; _$prefix$key =GlobalKey();&#10;key: _$prefix$key," description="" toReformat="false" toShortenFQNames="true">
     <variable name="state" expression="dartSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <variable name="prefix" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
