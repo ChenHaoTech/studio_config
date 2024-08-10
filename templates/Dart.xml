@@ -43,4 +43,10 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="txtbtn" value="TextButton(onPressed: (){}, child: Text(&quot;$END$&quot;))" description="textbtn" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
 </templateSet>
