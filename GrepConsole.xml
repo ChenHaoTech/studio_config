@@ -6,60 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="update state:" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="_recommentStats" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="_onTaskContextChange" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value=" TimeBlock(uuid:" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="_buildEditor" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="update Promodo" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="删除 timeblock" />
               </GrepModel>
             </list>
@@ -403,6 +349,15 @@
           <option name="models">
             <list>
               <GrepModel>
+                <option name="expression" value=" [DebugUtils] zoom_controller:86:" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
                 <option name="expression" value="SupabaseService" />
               </GrepModel>
             </list>
@@ -449,6 +404,51 @@
             <list>
               <GrepModel>
                 <option name="expression" value="[DebugUtils] day_view:359" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value=" [DebugUtils] zoomable_header_widget:178: _" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="[DebugUtils] zoomable_header_widget:168" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="log] [DebugUtils] zoom_controller:86" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="[log] [DebugUtils] zoomable_header_widget:178" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="log] [DebugUtils] zoomable_header_widget:168:" />
               </GrepModel>
             </list>
           </option>
