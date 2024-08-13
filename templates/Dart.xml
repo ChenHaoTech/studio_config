@@ -62,12 +62,12 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="radius" value="BoxDecoration(&#10;   borderRadius: BorderRadius.circular($END$), &#10;)" toReformat="false" toShortenFQNames="true">
+  <template name="radius" value="BoxDecoration(&#10;   borderRadius: BorderRadius.circular($END$), &#10;)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="mainAxis" value="mainAxisAlignment: MainAxisAlignment.center$END$," toReformat="false" toShortenFQNames="true">
+  <template name="mainAxis" value="mainAxisAlignment: MainAxisAlignment.center$END$," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
