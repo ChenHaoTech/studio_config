@@ -48,9 +48,6 @@
   <action id="ActivateJsonParserToolWindow">
     <keyboard-shortcut first-keystroke="shift alt j" />
   </action>
-  <action id="ActivateLogcatToolWindow">
-    <keyboard-shortcut first-keystroke="alt 4" />
-  </action>
   <action id="ActivateMavenToolWindow">
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
@@ -658,6 +655,7 @@
   </action>
   <action id="com.sankuai.xframe.mcopilot.intellij.gpt.selection.GptEditorSelectionHotKey-gptButtonAction-代码补全">
     <keyboard-shortcut first-keystroke="alt 5" />
+    <keyboard-shortcut first-keystroke="alt 4" />
   </action>
   <action id="com.sankuai.xframe.mcopilot.intellij.gpt.selection.GptEditorSelectionHotKey-gptButtonAction-写单测">
     <keyboard-shortcut first-keystroke="alt 6" />
@@ -668,11 +666,8 @@
   <action id="com.sankuai.xframe.mcopilot.intellij.gpt.selection.GptEditorSelectionHotKey-gptButtonAction-找Bug">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
-  <action id="com.sankuai.xframe.mcopilot.intellij.gpt.selection.GptEditorSelectionHotKey-gptButtonAction-注释">
-    <keyboard-shortcut first-keystroke="alt 4" />
-  </action>
   <action id="com.sankuai.xframe.mcopilot.intellij.gpt.selection.GptEditorSelectionHotKey-gptButtonAction-生成代码">
-    <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="com.sankuai.xframe.mcopilot.intellij.gpt.selection.GptEditorSelectionHotKey-gptButtonAction-解释">
     <keyboard-shortcut first-keystroke="alt 5" />
@@ -682,6 +677,7 @@
   </action>
   <action id="com.sankuai.xframe.mcopilot.intellij.gpt.selection.GptEditorSelectionHotKey-showPanelAction">
     <keyboard-shortcut first-keystroke="alt 0" />
+    <keyboard-shortcut first-keystroke="alt q" />
   </action>
   <action id="flutter.pub.get">
     <keyboard-shortcut first-keystroke="ctrl alt k" />
