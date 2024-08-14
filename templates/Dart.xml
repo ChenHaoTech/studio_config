@@ -77,4 +77,9 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="crossAxisAlignment" value="crossAxisAlignment: CrossAxisAlignment.center$END$," description="crossAxisAlignment: CrossAxisAlignment.center," toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
