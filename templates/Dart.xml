@@ -72,4 +72,9 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="layoutbuilder;" value="LayoutBuilder(builder: (BuildContext context, BoxConstraints constraints) {&#10;    return $END$;&#10;});" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
