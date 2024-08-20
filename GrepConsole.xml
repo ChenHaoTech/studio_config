@@ -375,15 +375,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="TimeBlockStore" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="exclude" value="true" />
                 <option name="expression" value="[SyncHelper" />
               </GrepModel>
@@ -404,15 +395,6 @@
             <list>
               <GrepModel>
                 <option name="expression" value="SupabaseService" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="SyncHelper_timeBlock" />
               </GrepModel>
             </list>
           </option>
@@ -449,6 +431,24 @@
             <list>
               <GrepModel>
                 <option name="expression" value="log] [DebugUtils] zoomable_header_widget:168:" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="TimeBlockStore" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="SyncHelper_timeBlock" />
               </GrepModel>
             </list>
           </option>
