@@ -117,6 +117,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt r" />
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="ClearAllNotifications">
+    <keyboard-shortcut first-keystroke="ctrl meta alt x" />
+  </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
