@@ -390,6 +390,7 @@
   <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="meta alt back_space" />
   </action>
+  <action id="Kotlin.RunScratch" />
   <action id="KotlinShellExecute" />
   <action id="List-scrollDown" />
   <action id="List-scrollUp" />
