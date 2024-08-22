@@ -366,6 +366,24 @@
           <option name="models">
             <list>
               <GrepModel>
+                <option name="expression" value="TimeBlockStore" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="SyncHelper_timeBlock" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
                 <option name="expression" value=" _buildTaskTitle " />
               </GrepModel>
             </list>
@@ -430,24 +448,6 @@
             <list>
               <GrepModel>
                 <option name="expression" value="[SyncHelper_tags]" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="TimeBlockStore" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="SyncHelper_timeBlock" />
               </GrepModel>
             </list>
           </option>
