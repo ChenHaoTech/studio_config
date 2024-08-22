@@ -94,4 +94,10 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
+  <template name="stack" value="var current = StackTrace.current;" description="var current = StackTrace.current;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
 </templateSet>
