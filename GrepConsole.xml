@@ -6,15 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="documented" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="_initTime" />
               </GrepModel>
             </list>
@@ -448,6 +439,15 @@
             <list>
               <GrepModel>
                 <option name="expression" value="SyncHelper_timeBlock]" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="DebugUtils] bind channelhash:" />
               </GrepModel>
             </list>
           </option>
