@@ -200,6 +200,11 @@
     <variable name="navBarItem2Text" expression="&quot;navBarItem2Text&quot;" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="subj" value="Stream&lt;$type$&gt; get name =&gt; _$nameSubject$.stream; &#10;  final _$nameSubject$ = BehaviorSubject&lt;$type$&gt;();" description="Add BehaviorSubject" toReformat="true" toShortenFQNames="true">
+    <variable name="type" expression="$type$" defaultValue="" alwaysStopAt="true" />
+    <variable name="nameSubject" expression="$nameSubject$" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
   <template name="snk" value="Stream&lt;$type$&gt; get name =&gt; _$nameController$.sink; &#10;  final _$nameController$ = StreamController&lt;$type$&gt;();" description="Sink" toReformat="true" toShortenFQNames="true">
     <variable name="type" expression="$type$" defaultValue="" alwaysStopAt="true" />
     <variable name="nameController" expression="$nameController$" defaultValue="" alwaysStopAt="true" />
