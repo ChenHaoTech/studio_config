@@ -194,4 +194,18 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
+  <template name="singleChildSV" value="SingleChildScrollView(&#10;controller: $controller$, // Optional&#10;child: $widget$,&#10;)," description="New SingleChildScrollView" toReformat="true" toShortenFQNames="true">
+    <variable name="controller" expression="&quot;controller&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="widget" expression="&quot;widget&quot;" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="initS" value="@override&#10;void initState() { &#10;  super.initState();&#10;  // Add code after super&#10;}" description="Add initState Override" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="valueListenableBuilder" value="ValueListenableBuilder( &#10; valueListenable: $duration$, &#10; builder: (BuildContext context, $type$ value, Widget child) { &#10; return  $body$  &#10; }&#10;" description="Value Listenable Builder" toReformat="true" toShortenFQNames="true">
+    <variable name="valueListenable" expression="$valueListenable$" defaultValue="null" alwaysStopAt="true" />
+    <variable name="type" expression="$type$" defaultValue="dynamic" alwaysStopAt="true" />
+    <variable name="body" expression="$body$" defaultValue="Container();" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
