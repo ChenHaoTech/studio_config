@@ -100,4 +100,11 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
+  <template name="_local" value="class _LocaleKey{&#10;  static String get $VAL$ =&gt; &quot;$END$$VAL$&quot;;&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
 </templateSet>
