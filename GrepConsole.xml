@@ -6,24 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="PormodoMarker" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value=": PormodoMarker" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="onPeriodic?.call();" />
               </GrepModel>
             </list>
@@ -448,6 +430,24 @@
             <list>
               <GrepModel>
                 <option name="expression" value="[DebugUtils] dash_board:127" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="tils] dash_board:347" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="ugUtils] dash_board:366:" />
               </GrepModel>
             </list>
           </option>
