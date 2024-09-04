@@ -204,4 +204,11 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
+  <template name="maybeof" value="static $ClassName$? mayBeOf(BuildContext context) {&#10;    return context.findAncestorWidgetOfExactType&lt;$ClassName$&gt;();&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="ClassName" expression="dartClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
 </templateSet>
