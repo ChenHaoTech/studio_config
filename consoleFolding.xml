@@ -5,13 +5,15 @@
         <option value="[GETX] Instance" />
         <option value="_pressedKeys.containsKey(event.physicalKey)" />
         <option value="A KeyDownEvent is dispatched," />
+        <option value="D/InsetsController" />
         <option value="Drift: Sent SELECT * FROM" />
         <option value="Drift: Sent SELECT * FROM &quot;setting_tb&quot;" />
         <option value="flutter: Drift" />
         <option value="I/flutter (16451): Drift:" />
         <option value="I/ViewRootImpl@733b464[MainActivity]" />
+        <option value="SingleActivator#" />
         <option value="V/MediaPlayerNative" />
-        <option value="D/InsetsController" />
+        <option value="key:body,jsonMap:" />
       </list>
     </option>
   </component>

@@ -6,15 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="onPeriodic?.call();" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="flutter: │" />
               </GrepModel>
             </list>
@@ -448,6 +439,15 @@
             <list>
               <GrepModel>
                 <option name="expression" value="ugUtils] dash_board:366:" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="[ShortcutService]" />
               </GrepModel>
             </list>
           </option>
