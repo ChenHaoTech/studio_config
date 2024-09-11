@@ -339,6 +339,15 @@
           <option name="models">
             <list>
               <GrepModel>
+                <option name="expression" value="tils] dash_board:347" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
                 <option name="expression" value="[GETX]" />
               </GrepModel>
             </list>
@@ -357,7 +366,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="tils] dash_board:347" />
+                <option name="expression" value="" />
               </GrepModel>
             </list>
           </option>
@@ -439,15 +448,6 @@
             <list>
               <GrepModel>
                 <option name="expression" value="tate change: " />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="" />
               </GrepModel>
             </list>
           </option>
