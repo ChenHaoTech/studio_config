@@ -6,15 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="log] [DebugUtils] zoom_controller:86" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="[log] [DebugUtils] zoomable_header_widget:178" />
               </GrepModel>
             </list>
@@ -358,6 +349,15 @@
             <list>
               <GrepModel>
                 <option name="expression" value=" (window_activity_stats)" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="dashboard_page:" />
               </GrepModel>
             </list>
           </option>
