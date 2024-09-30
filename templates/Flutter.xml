@@ -217,41 +217,4 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="row" value="Row(&#10;  children: &lt;Widget&gt;[$goto$],&#10;)," description="Create Row Widget" toReformat="true" toShortenFQNames="true">
-    <variable name="goto" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="column" value="Column(&#10;  children: &lt;Widget&gt;[$goto$],&#10;)," description="Create Column Widget" toReformat="true" toShortenFQNames="true">
-    <variable name="goto" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="scfAppBar" value="return Scaffold(&#10;appBar: AppBar(&#10;title: Text('$appbarTitle$'),&#10;),&#10;body: $body$&#10;);" description="New Scaffold with AppBar" toReformat="true" toShortenFQNames="true">
-    <variable name="appbarTitle" expression="&quot;appbarTitle&quot;" defaultValue="" alwaysStopAt="true" />
-    <variable name="body" expression="&quot;bodyWidget&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="txt" value="Text('$text$')," description="Create Text Widget" toReformat="true" toShortenFQNames="true">
-    <variable name="text" expression="&quot;text&quot;" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="aspectRatio" value="AspectRatio(&#10;aspectRatio: $aspectRatio$,&#10;child: $child$&#10;)," description="New AspectRatio Widget" toReformat="true" toShortenFQNames="true">
-    <variable name="aspectRatio" expression="$aspectRatio$" defaultValue="" alwaysStopAt="true" />
-    <variable name="child" expression="$child$" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="subj" value="Stream&lt;$type$&gt; get name =&gt; _$nameSubject$.stream; &#10;  final _$nameSubject$ = BehaviorSubject&lt;$type$&gt;();" description="Add BehaviorSubject" toReformat="true" toShortenFQNames="true">
-    <variable name="type" expression="$type$" defaultValue="" alwaysStopAt="true" />
-    <variable name="nameSubject" expression="$nameSubject$" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="toStr" value="@override&#10;String toString() {&#10;return $toString$;&#10;}&#10;" description="To String Override" toReformat="true" toShortenFQNames="true">
-    <variable name="toString" expression="$toString$" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="valueListenableBuilder" value="ValueListenableBuilder( &#10; valueListenable: $duration$, &#10; builder: (BuildContext context, $type$ value, Widget child) { &#10; return  $body$  &#10; }&#10;" description="Value Listenable Builder" toReformat="true" toShortenFQNames="true">
-    <variable name="valueListenable" expression="$valueListenable$" defaultValue="null" alwaysStopAt="true" />
-    <variable name="type" expression="$type$" defaultValue="dynamic" alwaysStopAt="true" />
-    <variable name="body" expression="$body$" defaultValue="Container();" alwaysStopAt="true" />
-    <context />
-  </template>
 </templateSet>
