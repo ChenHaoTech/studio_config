@@ -217,8 +217,17 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
+  <template name="row" value="Row(&#10;  children: &lt;Widget&gt;[$goto$],&#10;)," description="Create Row Widget" toReformat="true" toShortenFQNames="true">
+    <variable name="goto" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
   <template name="column" value="Column(&#10;  children: &lt;Widget&gt;[$goto$],&#10;)," description="Create Column Widget" toReformat="true" toShortenFQNames="true">
     <variable name="goto" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="subj" value="Stream&lt;$type$&gt; get name =&gt; _$nameSubject$.stream; &#10;  final _$nameSubject$ = BehaviorSubject&lt;$type$&gt;();" description="Add BehaviorSubject" toReformat="true" toShortenFQNames="true">
+    <variable name="type" expression="$type$" defaultValue="" alwaysStopAt="true" />
+    <variable name="nameSubject" expression="$nameSubject$" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
   <template name="didChangeD" value="@override &#10; void didChangeDependencies(){ &#10; super.didChangeDependencies(); &#10; $body$ &#10;}&#10;" description="didChangeDependencies" toReformat="true" toShortenFQNames="true">
