@@ -6,24 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="[log] [DebugUtils] zoomable_header_widget:178" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value=" [DebugUtils] zoom_controller:86:" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="SupabaseService" />
               </GrepModel>
             </list>
@@ -448,6 +430,24 @@
             <list>
               <GrepModel>
                 <option name="expression" value="fresh list by; model: Range" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="edPointerHoverEvent#23a0" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="_TransformedPointerHoverEvent" />
               </GrepModel>
             </list>
           </option>
