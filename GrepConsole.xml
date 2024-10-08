@@ -6,15 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="SupabaseService" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="[_DownloadWidgetState]" />
               </GrepModel>
             </list>
@@ -448,6 +439,15 @@
             <list>
               <GrepModel>
                 <option name="expression" value="_TransformedPointerHoverEvent" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="n_week_view:841" />
               </GrepModel>
             </list>
           </option>
