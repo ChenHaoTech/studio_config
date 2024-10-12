@@ -2,12 +2,14 @@
   <component name="MCopilotSettingsState">
     <option name="commentEnabled" value="false" />
     <option name="explainEnabled" value="false" />
+    <option name="inlineSuggestionEnabled" value="false" />
     <option name="modelType" value="2" />
     <option name="showIdeCompletionSideBySide" value="true" />
-    <option name="systemPrompt" value="" />
+    <option name="systemPrompt" value="你是一个flutter AI代码助手，当帮我生成代码时，请使用Dart语言" />
     <option name="tabOrder" value="" />
+    <option name="unitTestEnabled" value="false" />
     <option name="unitTestFramework" value="Spock" />
     <option name="unitTestMockFramework" value="Mockito2" />
-    <option name="customActions" value="[{&quot;actionName&quot;:&quot;生成代码&quot;,&quot;prompt&quot;:&quot;基于注释生成代码,不需要解释, 直接输出代码&quot;},{&quot;actionName&quot;:&quot;纠正&quot;,&quot;prompt&quot;:&quot;纠正语法错误&quot;},{&quot;actionName&quot;:&quot;测试&quot;,&quot;prompt&quot;:&quot;输出这段代码的测试代码, 不要 import 内容&quot;}]" />
+    <option name="customActions" value="[{&quot;actionName&quot;:&quot;生成代码&quot;,&quot;prompt&quot;:&quot;基于注释生成代码, 直接输出代码, 不要介绍&quot;},{&quot;actionName&quot;:&quot;代码补全&quot;,&quot;prompt&quot;:&quot;基于上下文补全缺失的代码代码, 直接输出代码, 不要介绍&quot;},{&quot;actionName&quot;:&quot;写单测&quot;,&quot;prompt&quot;:&quot;基于上下文撰写 dart 单元测试, 构造测试数据和撰写 test()方法 体。直接输出代码, 不要介绍&quot;}]" />
   </component>
 </application>
