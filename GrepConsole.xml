@@ -6,24 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="log] [DebugUtils] zoomable_header_widget:168:" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="TimeBlockStore" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="SyncHelper_timeBlock" />
               </GrepModel>
             </list>
@@ -448,6 +430,24 @@
             <list>
               <GrepModel>
                 <option name="expression" value="ask_editor:1061:1," />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="init time " />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="FnWeekViewState" />
               </GrepModel>
             </list>
           </option>
