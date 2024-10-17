@@ -384,6 +384,15 @@
           <option name="models">
             <list>
               <GrepModel>
+                <option name="expression" value="[TagStore]" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
                 <option name="expression" value="fn_week_view:63" />
               </GrepModel>
             </list>
@@ -439,15 +448,6 @@
             <list>
               <GrepModel>
                 <option name="expression" value="pomodoro_controller:751" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="[TagStore]" />
               </GrepModel>
             </list>
           </option>
