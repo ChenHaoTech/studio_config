@@ -6,24 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="[SupabaseService" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="[SyncHelper" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="[SyncHelper_timeBlock]" />
               </GrepModel>
             </list>
@@ -448,6 +430,24 @@
             <list>
               <GrepModel>
                 <option name="expression" value="[_WindowActivityDialogController]" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="36301" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="_hoverOffset.valu" />
               </GrepModel>
             </list>
           </option>
