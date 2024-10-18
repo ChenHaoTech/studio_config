@@ -178,9 +178,7 @@
   </action>
   <action id="DatabaseView.CopyAction" />
   <action id="DatabaseView.CopyTable" />
-  <action id="Debug">
-    <keyboard-shortcut first-keystroke="shift f5" />
-  </action>
+  <action id="Debug" />
   <action id="Debugger.AddToWatch">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
