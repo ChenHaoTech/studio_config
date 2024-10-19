@@ -357,6 +357,15 @@
           <option name="models">
             <list>
               <GrepModel>
+                <option name="expression" value="36301" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
                 <option name="expression" value="fn_week_view:63" />
               </GrepModel>
             </list>
@@ -430,15 +439,6 @@
             <list>
               <GrepModel>
                 <option name="expression" value="[_WindowActivityDialogController]" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="36301" />
               </GrepModel>
             </list>
           </option>
