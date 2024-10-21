@@ -6,15 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="DebugUtils] bind channelhash:" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="tils] dash_board:347" />
               </GrepModel>
             </list>
@@ -448,6 +439,15 @@
             <list>
               <GrepModel>
                 <option name="expression" value="playing_extend_side" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="notification:73:" />
               </GrepModel>
             </list>
           </option>
