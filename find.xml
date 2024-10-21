@@ -17,5 +17,6 @@
     <mask>*.yaml</mask>
     <mask>*.swift</mask>
     <mask>*.dart</mask>
+    <mask>*.json</mask>
   </component>
 </application>
