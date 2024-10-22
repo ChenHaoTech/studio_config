@@ -6,15 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="tils] dash_board:347" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="[GETX]" />
               </GrepModel>
             </list>
@@ -448,6 +439,15 @@
             <list>
               <GrepModel>
                 <option name="expression" value="notification:73:" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="remove range:" />
               </GrepModel>
             </list>
           </option>
