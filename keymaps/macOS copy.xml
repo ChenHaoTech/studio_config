@@ -559,9 +559,6 @@
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
-  <action id="Terminal.OpenInTerminal">
-    <keyboard-shortcut first-keystroke="ctrl back_quote" />
-  </action>
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleBreakpointEnabled">
     <keyboard-shortcut first-keystroke="meta f8" />
