@@ -6,33 +6,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="[DebugUtils] dash_board:127" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="ugUtils] dash_board:366:" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="[ShortcutService]" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="[_FnShortcutsState]: " />
               </GrepModel>
             </list>
@@ -411,15 +384,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="playing_extend_side" />
               </GrepModel>
             </list>
@@ -448,6 +412,42 @@
             <list>
               <GrepModel>
                 <option name="expression" value="_TimeBlockEditorMobileState]: not" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="[debug] [FnShortcutManager][" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="[FnShortcutManager][pomodoro_time_dashboard] not matc, nevent: [Down]Meta + E" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="fn_shortcut_widget:269:" />
               </GrepModel>
             </list>
           </option>
