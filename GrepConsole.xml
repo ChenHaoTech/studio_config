@@ -384,6 +384,15 @@
           <option name="models">
             <list>
               <GrepModel>
+                <option name="expression" value="" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
                 <option name="expression" value="playing_extend_side" />
               </GrepModel>
             </list>
@@ -430,15 +439,6 @@
             <list>
               <GrepModel>
                 <option name="expression" value="[FnShortcutManager][pomodoro_time_dashboard] not matc, nevent: [Down]Meta + E" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="" />
               </GrepModel>
             </list>
           </option>
