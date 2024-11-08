@@ -2,9 +2,7 @@
   <component name="MCopilotSettingsState">
     <option name="commentEnabled" value="false" />
     <option name="explainEnabled" value="false" />
-    <option name="inlineSuggestionEnabled" value="false" />
     <option name="modelType" value="2" />
-    <option name="showIdeCompletionSideBySide" value="true" />
     <option name="systemPrompt" value="你是一个flutter AI代码助手，当帮我生成代码时，请使用Dart语言" />
     <option name="tabOrder" value="" />
     <option name="unitTestEnabled" value="false" />
