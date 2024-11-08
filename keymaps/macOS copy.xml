@@ -673,6 +673,9 @@
   <action id="com.sankuai.xframe.mcopilot.intellij.gpt.selection.GptEditorSelectionHotKey-gptButtonAction-找Bug">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
+  <action id="com.sankuai.xframe.mcopilot.intellij.gpt.selection.GptEditorSelectionHotKey-gptButtonAction-添加上下文">
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
   <action id="com.sankuai.xframe.mcopilot.intellij.gpt.selection.GptEditorSelectionHotKey-gptButtonAction-生成代码">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
